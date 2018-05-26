@@ -4,11 +4,21 @@
     "description": "Decode or encode selected text as a URI/URL component",
     "version": "0.0.1",
     "publisher": "sryze",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sryze/vscode-uridecode.git"
+    },
     "engines": {
         "vscode": "^1.23.0"
     },
     "categories": [
         "Other"
+    ],
+    "keywords": [
+        "url",
+        "uri",
+        "encode",
+        "decode"
     ],
     "activationEvents": [
         "onCommand:extension.encodeURIComponent",
