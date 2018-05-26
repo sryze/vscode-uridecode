@@ -1,9 +1,9 @@
 {
-    "name": "urldecode",
-    "displayName": "urldecode",
-    "description": "Decode or encode a URL string",
+    "name": "uridecode",
+    "displayName": "URI Encode/Decode",
+    "description": "Decode or encode selected text as a URI/URL component",
     "version": "0.0.1",
-    "publisher": "test",
+    "publisher": "sryze",
     "engines": {
         "vscode": "^1.23.0"
     },
@@ -11,14 +11,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.encodeURIComponent",
+        "onCommand:extension.decodeURIComponent"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.encodeURIComponent",
+                "title": "Encode Selection as URI Component"
+            },
+            {
+                "command": "extension.decodeURIComponent",
+                "title": "Decode Selection as URI Component"
             }
         ]
     },
