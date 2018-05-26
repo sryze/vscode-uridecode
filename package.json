@@ -2,7 +2,7 @@
     "name": "uridecode",
     "displayName": "URI Encode/Decode",
     "description": "Decode or encode selected text as a URI/URL component",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "sryze",
     "repository": {
         "type": "git",
