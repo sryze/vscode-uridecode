@@ -18,7 +18,8 @@
         "url",
         "uri",
         "encode",
-        "decode"
+        "decode",
+        "uridecode"
     ],
     "activationEvents": [
         "onCommand:extension.encodeURI",
