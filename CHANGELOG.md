@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.3.2
+
+Various documentation fixes.
+
 ## 0.3.1
 
 Fixed another type on README

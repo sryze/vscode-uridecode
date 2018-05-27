@@ -17,6 +17,10 @@ This is a simple extension that encodes or decodes a piece of text as a URI (URL
 
 ## Release Notes
 
+### 0.3.2
+
+Various documentation fixes.
+
 ### 0.3.1
 
 Fixed another typo in README
