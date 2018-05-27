@@ -21,15 +21,25 @@
         "decode"
     ],
     "activationEvents": [
+        "onCommand:extension.encodeURI",
         "onCommand:extension.encodeURIComponent",
+        "onCommand:extension.decodeURI",
         "onCommand:extension.decodeURIComponent"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
+                "command": "extension.encodeURI",
+                "title": "Encode Selection as URI"
+            },
+            {
                 "command": "extension.encodeURIComponent",
                 "title": "Encode Selection as URI Component"
+            },
+            {
+                "command": "extension.decodeURI",
+                "title": "Decode Selection as URI"
             },
             {
                 "command": "extension.decodeURIComponent",
