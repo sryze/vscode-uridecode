@@ -17,14 +17,23 @@ This is a simple extension that encodes or decodes a piece of text as a URI (URL
 
 ## Release Notes
 
+### 0.3.1
+
+Fixed another type on README
+
+### 0.3
+
+* Refactored code
+* Added a GIF to demonstrate how it works
+
 ### 0.2
 
-Added `Encode as URI` and `Decode as URI` commands.
+Added `Encode as URI` and `Decode as URI` commands
 
 ### 0.1
 
-Fixed a typo in README.
+Fixed a typo in README
 
 ### 0.0.1
 
-Initial release.
+Initial release
