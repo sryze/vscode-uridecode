@@ -6,20 +6,20 @@ This is a simple extension that encodes or decodes a piece of text as a URI (URL
 
 ![Demo](demo.gif)
 
-* Select a URL and open command palette -> `Encode as URI` or `Decode as URI` to encode/decode as
-  a full URL. This ensures that only the necessary parts are encode, i.e. URL parameters.
+* Select a URI and open command palette -> `Encode as URI` or `Decode as URI` to encode/decode it
+  as a whole URI. This ensures that only the necessary parts are encoded, i.e. query parameters.
 
-* Select a part of a URL and open command palette -> `Encode as URI Component` or 
-  `Decode as URI Component` to encode/decode as a URL parameter. 
+* Select a part of a URI and open command palette -> `Encode as URI Component` or 
+  `Decode as URI Component` to encode/decode as a URI parameter. 
   
   Usually you only want to use this if you select the value of some parameter after the `=` sign 
-  and you want to encode/decode only that piece.
+  and you want to encode/decode only that part.
 
 ## Release Notes
 
 ### 0.3.1
 
-Fixed another type on README
+Fixed another typo in README
 
 ### 0.3
 
