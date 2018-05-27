@@ -4,6 +4,8 @@ This is a simple extension that URI-encodes or decodes a piece of text as a URI 
 
 ## Features
 
+![Demo](demo.gif)
+
 * Select a URL and open command palette -> `Encode as URI` or `Decode as URI` to encode/decode as
   a full URL. This ensures that only the necessary parts are encode, i.e. URL parameters.
 
