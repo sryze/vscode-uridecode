@@ -1,7 +1,6 @@
 # URI Encode/Decode
 
-This is a simple extension that URI-encodes or decodes a piece of text as a full URI as as 
-URI component.
+This is a simple extension that URI-encodes or decodes a piece of text as a URI (URL).
 
 ## Features
 
