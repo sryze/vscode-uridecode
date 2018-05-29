@@ -2,6 +2,7 @@
     "name": "uridecode",
     "displayName": "URI Encode/Decode",
     "description": "Decode or encode selected text as a URI/URL component",
+    "icon": "icon.png",
     "version": "0.3.2",
     "publisher": "sryze",
     "repository": {
