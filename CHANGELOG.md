@@ -1,8 +1,12 @@
 # Change Log
 
+## 0.3.3
+
+Added an icon
+
 ## 0.3.2
 
-Various documentation fixes.
+Various documentation fixes
 
 ## 0.3.1
 
