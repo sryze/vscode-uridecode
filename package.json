@@ -1,7 +1,7 @@
 {
     "name": "uridecode",
     "displayName": "URI Encode/Decode",
-    "description": "Decode or encode selected text as a URI/URL component",
+    "description": "Encode or decode selection as URI",
     "icon": "icon.png",
     "version": "0.3.3",
     "publisher": "sryze",

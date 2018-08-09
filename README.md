@@ -1,6 +1,8 @@
 # URI Encode/Decode
 
-This is a simple extension that encodes or decodes a piece of text as a URI (URL).
+This is a simple extension that encodes or decodes a piece of text as a whole URI (URL) or as a
+URI component, i.e. query parameter, using the JavaScript `encodeURI()` and `encodeURIComponent()`
+functions.
 
 ## Features
 
