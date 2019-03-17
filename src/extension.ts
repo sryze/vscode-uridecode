@@ -8,11 +8,11 @@ function transformEditorSelection(transformer: (text: string) => string) {
         return; // No open text editor
     }
 
-    const selection = editor.selection;
-    const text = editor.document.getText(selection);
-
     editor.edit(editBuilder => {
-        editBuilder.replace(selection, transformer(text));
+        editor.selections.forEach(selection => {
+            const text = editor.document.getText(new vscode.Range(selection.start, selection.end));
+            editBuilder.replace(selection, transformer(text));
+        });
     });
 }
 
