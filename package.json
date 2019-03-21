@@ -3,7 +3,7 @@
     "displayName": "URI Encode/Decode",
     "description": "Encode or decode selection as URI",
     "icon": "icon.png",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "publisher": "sryze",
     "repository": {
         "type": "git",
