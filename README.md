@@ -19,6 +19,10 @@ functions.
 
 ## Release Notes
 
+### 0.3.5
+
+Added support for multi-selection (thanks to [bretkikehara](https://github.com/sryze/vscode-uridecode/pull/1))
+
 ### 0.3.3
 
 Added an icon
