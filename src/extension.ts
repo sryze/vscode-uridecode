@@ -16,6 +16,10 @@ function transformEditorSelection(transformer: (text: string) => string) {
     });
 }
 
+function decodeURIComponentAndPlus(text: string): string {
+    return decodeURIComponent(text.replace('\+', ' '));
+}
+
 export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(
         vscode.commands.registerCommand('extension.encodeURI', () => {
@@ -34,7 +38,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
     context.subscriptions.push(
         vscode.commands.registerCommand('extension.decodeURIComponent', () => {
-            transformEditorSelection(decodeURIComponent);
+            transformEditorSelection(decodeURIComponentAndPlus);
         })
     );
 }
