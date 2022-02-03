@@ -46,6 +46,9 @@ describe('Tests', function () {
         {  cmd: 'decodeURIComponent', act: 'http%3A%2F%2Fexample.com',                 exp: 'http://example.com', },
         {  cmd: 'decodeURIComponent', act: 'http://example.com',                       exp: 'http://example.com', },
         {  cmd: 'decodeURIComponent', act: 'http://example.com?a=1&b=2',               exp: 'http://example.com?a=1&b=2', },
+        {  cmd: 'decodeURIComponent', act: 'a+b+c',                                    exp: 'a b c', },
+        {  cmd: 'decodeURIComponent', act: 'a%20b+c',                                  exp: 'a b c', },
+        {  cmd: 'decodeURIComponent', act: 'a%2Bb+c',                                  exp: 'a+b c', },
 
         {  cmd: 'encodeURI',          act: '',                                         exp: '', },
         {  cmd: 'encodeURI',          act: 'http%3A%2F%2Fexample.com%3Fa%3D1%26b%3D2', exp: 'http%253A%252F%252Fexample.com%253Fa%253D1%2526b%253D2', },
