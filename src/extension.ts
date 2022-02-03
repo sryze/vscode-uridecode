@@ -17,7 +17,7 @@ function transformEditorSelection(transformer: (text: string) => string) {
 }
 
 function decodeURIComponentAndPlus(text: string): string {
-    return decodeURIComponent(text.replace('\+', ' '));
+    return decodeURIComponent(text.replace(/\+/g, ' '));
 }
 
 export function activate(context: vscode.ExtensionContext) {
