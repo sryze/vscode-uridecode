@@ -8,8 +8,8 @@ function transformEditorSelection(transformer: (text: string) => string) {
         return; // No open text editor
     }
 
-    editor.edit(editBuilder => {
-        editor.selections.forEach(selection => {
+    editor.edit((editBuilder: vscode.TextEditorEdit) => {
+        editor.selections.forEach((selection: vscode.Selection) => {
             const text = editor.document.getText(new vscode.Range(selection.start, selection.end));
             editBuilder.replace(selection, transformer(text));
         });

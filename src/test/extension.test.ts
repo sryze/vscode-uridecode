@@ -8,9 +8,9 @@ import TextEditor = vscode.TextEditor;
 
 const delay = (ms: number) => {
   return new Promise(resolve => {
-    setTimeout(resolve, ms)
-  })
-}
+    setTimeout(resolve, ms);
+  });
+};
 
 const execCommand = async (cmd: string) => {
   const { document } = vscode.window.activeTextEditor as TextEditor;
