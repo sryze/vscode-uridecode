@@ -3,7 +3,7 @@
     "displayName": "URI Encode/Decode",
     "description": "Encode or decode selection as URI",
     "icon": "icon.png",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "publisher": "sryze",
     "license": "MIT",
     "repository": {

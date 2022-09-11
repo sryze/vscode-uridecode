@@ -19,6 +19,10 @@ functions.
 
 ## Release Notes
 
+### 0.3.6
+
+Added support for decoding `+` as ` ` (thanks to [psignoret](https://github.com/sryze/vscode-uridecode/pull/4))
+
 ### 0.3.5
 
 Added support for multi-selection (thanks to [bretkikehara](https://github.com/sryze/vscode-uridecode/pull/1))
